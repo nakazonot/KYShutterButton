@@ -80,8 +80,8 @@
 		410B23381C47E2E30078A5A0 = {
 			isa = PBXGroup;
 			children = (
+				B5C217662A84D41F00CD1999 /* Source */,
 				B5C217642A84CFD600CD1999 /* Package.swift */,
-				410B23441C47E2E30078A5A0 /* KYShutterButton */,
 				415976381D8E805F0007ACF7 /* Example */,
 				410B23431C47E2E30078A5A0 /* Products */,
 			);
@@ -125,6 +125,14 @@
 				415976451D8E805F0007ACF7 /* Info.plist */,
 			);
 			path = Example;
+			sourceTree = "<group>";
+		};
+		B5C217662A84D41F00CD1999 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				410B23441C47E2E30078A5A0 /* KYShutterButton */,
+			);
+			path = Source;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
