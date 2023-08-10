@@ -16,6 +16,7 @@
 		415976441D8E805F0007ACF7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 415976421D8E805F0007ACF7 /* LaunchScreen.storyboard */; };
 		41AF6C201D8E811100A45CFE /* KYShutterButton.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 410B23421C47E2E30078A5A0 /* KYShutterButton.framework */; };
 		41AF6C211D8E811100A45CFE /* KYShutterButton.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 410B23421C47E2E30078A5A0 /* KYShutterButton.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		B5C217652A84CFD700CD1999 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C217642A84CFD600CD1999 /* Package.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,7 @@
 		415976401D8E805F0007ACF7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		415976431D8E805F0007ACF7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		415976451D8E805F0007ACF7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B5C217642A84CFD600CD1999 /* Package.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +80,7 @@
 		410B23381C47E2E30078A5A0 = {
 			isa = PBXGroup;
 			children = (
+				B5C217642A84CFD600CD1999 /* Package.swift */,
 				410B23441C47E2E30078A5A0 /* KYShutterButton */,
 				415976381D8E805F0007ACF7 /* Example */,
 				410B23431C47E2E30078A5A0 /* Products */,
@@ -240,6 +243,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B5C217652A84CFD700CD1999 /* Package.swift in Sources */,
 				410B234F1C47E3D00078A5A0 /* KYShutterButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -433,7 +437,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.kyo--hei.Example";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
@@ -452,7 +456,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.kyo--hei.Example";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
